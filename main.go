@@ -23,7 +23,7 @@ func main() {
 
 	length := uint8(0)
 
-	for {
+	for range 4 {
 		fmt.Println("Enter the length of the password you want to generate:")
 
 		scanner.Scan()
